@@ -1,14 +1,19 @@
 ---
-title: "Index"
+title: "How to make a website for github"
 author: "Mary McCabe"
 date: "October 17, 2018"
-output: html_document
+output: 
+  html_document:
+    toc: true 
+    toc_float: true  
+    number_sections: yes  
+    theme: flatly
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-##Loading librariers
+##Loading 
 ```{r}
 library(leaflet)
 library(dplyr)
